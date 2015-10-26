@@ -8,4 +8,8 @@ $(document).ready(function() {
 		$('.page-loader').removeClass('active');
 	});
 	
+	$(document.body).on('click.fecss', 'a', {}, function(event){
+		console.log('click.fecss');
+	});
+	
 });
